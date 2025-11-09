@@ -1,0 +1,26 @@
+public class Aprendiendo {
+
+    public static void main(String[] args) {
+        
+               //variables y contantes
+
+        String va = "JuanTintinago";
+
+        System.out.println(va);
+
+        int number = 18;
+
+        System.out.println(number);
+
+
+                //constantes
+
+        final String EMAIL = "e.drt.juan.tintinago@cali.edu.co";
+
+        System.out.println(EMAIL);
+        
+
+
+    
+    }
+}
