@@ -1,0 +1,48 @@
+public class ClaseVirtual {
+    
+public static void main(String[] args) {
+    
+}
+    
+
+// "Unificar el lo mismo que crear"
+
+// UML : Lenguaje de Modelado Unificado, 
+//más que un lenguaje es una notación 
+//para modelar las interacciones de una aplicación.
+
+//La clase se divide en tres partes: 
+//•Nombre de la clase
+//•Atributos o características (privados) 
+//•Métodos, operaciones o acciones (publicos)
+    
+
+// Un modelo es una abstracción de la realidad.
+
+
+
+// Las clases en JAVA siempre se escriben la primera en mayúscula, si es compuesta la siguiente palabra también irá la primera letra en mayúscula. 
+//Ej1. Carro, Persona, Profesor, Estudiante, Computador. 
+//Ej2. VehiculoElectrico, ProfesorUniversidad, TelefonoInhalambrico.
+
+
+//los objetos me permiten acceder a los atributos y metodos de la clase
+
+
+//el objeto que se crea o mejor, que se instancia es como una llave maestra que me permite acceder a los atributos y a los metodos.
+
+
+
+//4 pilares fundamentales de la Programación Orientada a Objetos. 
+//•Abstracción
+//•Encapsulación
+//•Herencia 
+//•Polimorfismo
+
+
+
+//    = (es de asignación) y    == (es de comparación)
+
+
+
+}
