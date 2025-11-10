@@ -6,19 +6,19 @@ public class Calculadora {
 
         // Pedir los números
         System.out.print("Ingresa el primer número: ");
-        double num1 = input.nextDouble();
+        int num1 = input.nextInt();
 
         System.out.print("Ingresa el segundo número: ");
-        double num2 = input.nextDouble();
+        int num2 = input.nextInt();
 
         // Pedir la operación
         System.out.print("Ingresa la operación (+, -, *, /): ");
         char operacion = input.next().charAt(0);
 
-        double resultado = 0;  // Variable para guardar el resultado
+        int resultado = 0;  // Variable para guardar el resultado
         boolean operacionValida = true;
 
-        // Estructura condicional
+        // Estructura con condicional
         if (operacion == '+') {
             resultado = num1 + num2;
         } else if (operacion == '-') {
@@ -37,7 +37,7 @@ public class Calculadora {
             operacionValida = false;
         }
 
-        // Mostrar resultado si fue válida
+        // Mostrar resultado si es válida
         if (operacionValida) {
             System.out.println("El resultado es: " + resultado);
         }
