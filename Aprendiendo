@@ -2,23 +2,110 @@ public class Aprendiendo {
 
     public static void main(String[] args) {
         
-               //variables y contantes
+        // Variables y contantes
 
-        String va = "JuanTintinago";
+        String nombre = "JuanTintinago";
 
-        System.out.println(va);
+        System.out.println(nombre);
 
         int number = 18;
 
         System.out.println(number);
 
 
-                //constantes
+
+        // Constantes
 
         final String EMAIL = "e.drt.juan.tintinago@cali.edu.co";
 
+        // Se diferencian porque las variables se escriben con minusculas (dependiendo) 
+        // y las contantes en mayusculas
+
         System.out.println(EMAIL);
         
+         
+
+        // Tipos de datos primivitos
+        
+
+        int myInt = 18;
+        System.out.println(myInt);
+
+        double myDouble = 1.70;
+        System.out.println(myDouble);
+
+        char myChar = 'A';
+        System.out.println(myChar);
+
+        boolean myBoolean = true;
+        myBoolean = false;
+        System.out.println(myBoolean);
+
+
+
+        // Operadores Aritmeticos
+
+        var a = 5;
+        var b = 5;
+        System.out.println(a + b);
+        System.out.println(a - b);
+        System.out.println(a * b);
+        System.out.println(a / b);
+        System.out.println(a % b);
+
+
+        // Asignacion
+
+        a = b;
+        System.out.println(a);
+
+        a = b * 4;
+        System.out.println(a);
+
+        a += 2;  // Asignacion directa, es lo mismo que a = a + 2
+
+
+
+        // Comparacion
+
+        System.out.println(a == b);
+        System.out.println(a == 10);
+        System.out.println(a != b);
+        System.out.println(a > b);
+        System.out.println(a < b);
+        System.out.println(a >= b);
+        System.out.println(a <= b);
+
+
+
+
+        // Operadores logicos
+
+        // Y (AND)
+
+        System.out.println(true && true);
+        System.out.println(true && false);
+        System.out.println(false && true);
+        System.out.println(false && false);
+    
+        System.out.println(4 > 2 && 5 == 2);
+
+
+        // O (OR)
+
+        System.out.println(true || true);
+        System.out.println(true || false);
+        System.out.println(false || true);
+        System.out.println(false || false);
+
+        System.out.println(4 > 2 || 5 == 2);
+
+
+
+
+
+
+
 
 
     
