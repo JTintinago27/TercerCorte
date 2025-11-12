@@ -101,13 +101,23 @@ public class Aprendiendo {
         System.out.println(4 > 2 || 5 == 2);
 
 
+        // NO (NOT)
+
+        System.out.println(!true);
+        System.out.println(!false);
+
+        System.out.println(4 > 2 || 5 == 2);
+        System.out.println(!(4 > 2 || 5 == 2));
 
 
+        // Operadores unarios
 
+        System.out.println(+b);
+        System.out.println(-b);
+        System.out.println(++b);
+        System.out.println(b++);
+        System.out.println(--b);
+        System.out.println(b--);
 
-
-
-
-    
     }
 }
