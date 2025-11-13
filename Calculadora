@@ -4,21 +4,21 @@ public class Calculadora {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        // Pedir los números
+        // Aqui le pedimos los números al usuario
         System.out.print("Ingresa el primer número: ");
         int num1 = input.nextInt();
 
         System.out.print("Ingresa el segundo número: ");
         int num2 = input.nextInt();
 
-        // Pedir la operación
+        // Aqui le pedimos la operación que desea (sea suma, resta, multiplicacion y division)
         System.out.print("Ingresa la operación (+, -, *, /): ");
         char operacion = input.next().charAt(0);
 
         int resultado = 0;  // Variable para guardar el resultado
         boolean operacionValida = true;
 
-        // Estructura con condicional
+        // Aqui utilizamos la estructura con los condicionales (if y else if)
         if (operacion == '+') {
             resultado = num1 + num2;
         } else if (operacion == '-') {
