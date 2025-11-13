@@ -1,0 +1,27 @@
+public class Aprendiendo3 {
+
+    public static void main(String[] args){
+
+
+        // Ciclos 
+    
+        // Un Bucle nos permite ejecutar un mismo bloque de codigo varias veces 
+        // (Repite Ejecuciones infinitas veces)
+
+
+        // For
+
+        for (int max = 0; max < 5; max++){
+            System.out.println("Hola Como Estan");
+        
+        }
+
+        // Infinitamente
+        
+        for (int max = 5; max > 0; max+=2){
+            System.out.println("Hola Como Estan");
+        
+        }
+    }
+}
+  
