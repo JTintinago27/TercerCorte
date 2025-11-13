@@ -1,0 +1,76 @@
+public class Aprendiendo2 {
+    public static void main(String[] args) {
+
+        // Obtener caracteres en una posicion concreta
+
+        String nombre = "JuanTintinago";
+        System.out.println(nombre);
+
+        int edad = 18;
+        System.out.println(edad);
+
+        System.out.println(nombre.charAt(0));
+        System.out.println(nombre.charAt(1));
+        System.out.println(nombre.charAt(2));
+        System.out.println(nombre.charAt(3));
+
+
+        // Longitud (cantidad de letras del string)
+
+        System.out.println(nombre.length());
+
+        // Como no puedo ver la longitud del ultimo porque da error entonces colocamos asi
+
+        System.out.println(nombre.charAt(nombre.length() -1));
+
+
+
+        // Condicionales
+
+        var age = 18;
+
+        System.out.println(age >= 18);
+
+        if (age >= 18) {
+
+        System.out.println("El usuario es mayor de edad");
+
+        } else{
+        System.out.println("El usuario es menor de edad");
+
+        }
+
+
+        // Sentencia Switch
+        // ah switch le da igual el valor que tenga
+
+        var day = 8;
+
+        switch (day) {
+            case 1:
+                System.out.println("Lunes");
+                break;
+            case 2:
+                System.out.println("Martes");
+                break;
+            case 3:
+                System.out.println("Miercoles");
+                break;
+            case 4:
+                System.out.println("Jueves");
+                break;
+            case 5:
+                System.out.println("Viernes");
+                break;
+            case 6:
+                System.out.println("Sabado");
+                break;
+            case 7:
+                System.out.println("Domingo");
+                break;
+            default:
+            System.out.println("No es Lunes, Martes, Miercoles, Jueves, Viernes, Sabado,");
+        
+        }
+    }
+}
