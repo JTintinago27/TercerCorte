@@ -20,8 +20,34 @@ public class Aprendiendo3 {
         
         for (int max = 5; max > 0; max+=2){
             System.out.println("Hola Como Estan");
+
+
         
+        // While - Do while
+        // Se repite si la condicion es verdadera 
+        
+        // while bucle infinito
+        int index = 0;
+        while (index < 5) {
+          System.out.println("Hola Como Estan");  
         }
+
+        int numero = 0;
+        while (numero < 5) {
+          System.out.println("Hola Como Estan");  
+        }
+
+        // Do - While
+
+
+        numero = 0;
+        do {
+            System.out.println("Hola Como Estan");
+            numero ++;
+        } while (numero < 5); // la condicion dice que se ejecute 5 veces
+
+        }
+
     }
 }
   
