@@ -9,6 +9,7 @@ public class ClaseCuentaBancaria {
         this.numeroCuenta = numeroCuenta;
         this.saldo = saldo;
         this.tipoCuenta = tipoCuenta;
+    }
 
          // Constructor Getters
     public String getNumeroCuenta() {
