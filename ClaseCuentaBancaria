@@ -1,11 +1,11 @@
 public class ClaseCuentaBancaria {
-        
+    
     private String numeroCuenta;
     private double saldo;
     private String tipoCuenta;
 
 
-    public ClaseCuentaBancaria (String numerCuenta, double saldo, String tipoCuenta){
+    public ClaseCuentaBancaria (String numeroCuenta, double saldo, String tipoCuenta){
         this.numeroCuenta = numeroCuenta;
         this.saldo = saldo;
         this.tipoCuenta = tipoCuenta;
@@ -24,7 +24,6 @@ public class ClaseCuentaBancaria {
     }
 
     
-    
     // Constructor Setters
     public void setNumeroCuenta(String numeroCuenta) {
         this.numeroCuenta = numeroCuenta;
@@ -39,9 +38,8 @@ public class ClaseCuentaBancaria {
     }
 
 
-
-
-    // Este método es para depositar dinero
+    
+    // Este método es para depositar el dinero
     public void depositar(double cantidad) {
         if (cantidad > 0) {
             saldo += cantidad;
@@ -66,7 +64,3 @@ public class ClaseCuentaBancaria {
         System.out.println("Saldo actual: $" + saldo);
     }
 }
-    
-    }
-}
-
