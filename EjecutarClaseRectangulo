@@ -1,0 +1,23 @@
+public class EjecutarClaseRectangulo {
+    public static void main(String[] args) {
+        
+        ClaseRectangulo rectangulo1 = new ClaseRectangulo(10, 5);
+        ClaseRectangulo rectangulo2 = new ClaseRectangulo(20, 10);
+
+        System.out.println("Rectángulo 1:");
+        System.out.println("Altura: " + rectangulo1.getBase());
+        System.out.println("Base: " + rectangulo1.getBase());
+        System.out.println("Área: " + rectangulo1.calcularArea());
+        System.out.println("Perímetro: " + rectangulo1.calcularPerimetro());
+
+        System.out.println("\nRectángulo 2:");
+        System.out.println("Altura: " + rectangulo2.getBase());
+        System.out.println("Base: " + rectangulo2.getBase());
+        System.out.println("Área: " + rectangulo2.calcularArea());
+        System.out.println("Perímetro: " + rectangulo2.calcularPerimetro());
+
+        // mostrar una nueva información
+        System.out.println("Nuevo área: " + rectangulo1.calcularArea());
+        System.out.println("Nuevo perímetro: " + rectangulo1.calcularPerimetro());
+    }
+ }
