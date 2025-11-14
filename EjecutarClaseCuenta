@@ -1,0 +1,31 @@
+public class EjecutarClaseCuentaBancaria {
+    public static void main(String[] args) {
+        // Crear dos cuentas bancarias
+        ClaseCuentaBancaria cuentaAhorros = new ClaseCuentaBancaria("001A", 1500.0, "Ahorros");
+        ClaseCuentaBancaria cuentaCorriente = new ClaseCuentaBancaria("002B", 800.0, "Corriente");
+
+        System.out.println("Tipo de cuenta 1: " + cuentaAhorros.getTipoCuenta());
+        System.out.println("Tipo de cuenta 2: " + cuentaCorriente.getTipoCuenta());
+
+        // Mostrar el saldo inicial al ejecutar
+        System.out.println("Saldo inicial cuenta 1: $" + cuentaAhorros.getSaldo());
+        System.out.println("Saldo inicial cuenta 2: $" + cuentaCorriente.getSaldo());
+
+        
+        System.out.println("Operaciones en cuenta 1");
+        cuentaAhorros.depositar(100.0);
+        cuentaAhorros.retirar(200.0);
+        cuentaAhorros.retirar(2000.0); 
+
+        System.out.println("Operaciones en cuenta 2");
+        cuentaCorriente.depositar(100.0);
+        cuentaCorriente.retirar(1000.0); 
+
+        // Mostrar saldo final
+        System.out.println("Saldo final cuenta 1:");
+        cuentaAhorros.mostrarSaldo();
+
+        System.out.println("Saldo final cuenta 2:");
+        cuentaCorriente.mostrarSaldo();
+    }
+}
